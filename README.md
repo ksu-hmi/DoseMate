@@ -1,4 +1,4 @@
 # Medicine Reminder App
 
-#About
+# About
 This app is for xyz....
