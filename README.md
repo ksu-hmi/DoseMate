@@ -4,7 +4,7 @@ A user friendly app that will help patients who need to take medication frequent
 # About
 The Medication Reminder App is a straightforward mobile application designed to help individuals, especially elderly patients, manage their medication schedules effectively. It is a user-friendly tool for anyone who needs to take medications regularly. The Medication Reminder App offers a  user-friendly solution for managing medication schedules. By providing features like customizable reminders, medication information storage, and missed dose notifications, it aims to empower users to take control of their health. 
 
-Features:
+# Features
 
 1. Medication Schedule: Users can input their prescribed medications, including dosage and frequency.
 
