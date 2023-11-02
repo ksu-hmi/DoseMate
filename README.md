@@ -23,7 +23,9 @@ The Medication Reminder App is a straightforward mobile application designed to 
 
 # Contributors
 Anita Ajuebor (https://github.com/nedabeda2)
+
 Zainab Suara (https://github.com/zainsu)
+
 Brianna Williams (https://github.com/babybri1)
 
 
