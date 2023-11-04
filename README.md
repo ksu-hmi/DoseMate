@@ -21,7 +21,7 @@ The Medication Reminder App is a straightforward mobile application designed to 
 7. History Tracking: Record medication adherence over time, which can be useful for doctor appointments.
 
 # Licenses 
-This project is licensed under MIT
+This project is licensed under MIT.
 
 
 # Contributors
