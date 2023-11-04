@@ -16,6 +16,7 @@
  A Python based application which used a Flask web framework and Celery distribution system to send SMS reminder about upcoming appointments. Before the app can be used you must first configure your account abd environment credidentals using the information found on your Twilio console. Once complete you can add appointments and set up when you would like to recieve your SMS remainder. Other features of this app include shortcode resources, fraud protection and video tutorials to help aid in making the application user friendly. As is, the app is quite efficient and designed to account for most common errors that are prone to happen.   
  
 [Brianna] [https://github.com/thenoogler/med-reminder/blob/main/README.md]
+
 This Python application using a Flask, PostgreSQL, and SQLAlchemy backend allows users to log and keep track of medications. Additionally, in your user profile it has the ability to display more information about the medications you are taking. Before running this app you must have PostgreSQL,and Python 3.6 installed and run both OpenFDA and Twilio API keys. When finished you are able to schedule text reminders for both daily medications and prescription refills. Other features include a pill identifier and additional information of correct dosage. 
 
 
