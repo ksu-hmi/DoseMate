@@ -17,7 +17,7 @@
  
 [Brianna] [https://github.com/thenoogler/med-reminder/blob/main/README.md]
 
-This Python application using a Flask, PostgreSQL, and SQLAlchemy backend allows users to log and keep track of medications. Additionally, in your user profile it has the ability to display more information about the medications you are taking. Before running this app you must have PostgreSQL,and Python 3.6 installed and run both OpenFDA and Twilio API keys. When finished you are able to schedule text reminders for both daily medications and prescription refills. Other features include a pill identifier and additional information of correct dosage. 
+This Python application using a Flask, PostgreSQL, and SQLAlchemy backend allows users to log and keep track of medications. Additionally, in your user profile it has the ability to display more information about the medications you are taking. Before running this app you must have PostgreSQL,and Python 3.6 installed and run both OpenFDA and Twilio API keys. When finished you are able to schedule text reminders for both daily medications and prescription refills. Other features include a pill identifier and additional information for correct dosage. 
 
 
 # Sprint 2
