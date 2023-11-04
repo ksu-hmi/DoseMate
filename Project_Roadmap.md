@@ -9,7 +9,7 @@
  # Findings 
 [ Zainab ] https://github.com/ByrneThomas/Medication_-Reminder_-For_The-_Elderly/blob/main/Final%20code.py
 
- This Python script utilizes the tkinter library to create a graphical user interface (GUI) for a Medication Reminder App. It includes functions for loading medication data from a CSV file, displaying medication information, setting reminders based on specified schedules, and adding new medication schedules. The application also employs text-to-speech functionality to provide audio feedback to the user. However, there are areas for potential improvement. Error handling, input validation, and file handling should be more robust to ensure smooth operation. Additionally, enhancing the user interface and implementing security measures, if necessary, would further enhance the application's usability and reliability. Overall, with some refinement, this Medication Reminder App has the potential to be a helpful tool for managing medication schedules.
+ This Python script utilizes the tkinter library to create a graphical user interface (GUI) for a Medication Reminder App. It includes functions for loading medication data from a CSV file, displaying medication information, setting reminders based on specified schedules, and adding new medication schedules. The application also employs text-to-speech functionality to provide audio feedback to the user. However, there are areas for potential improvement. Error handling, input validation, and file handling should be more robust to ensure smooth operation. Additionally, enhancing the user interface and implementing security measures, if necessary, would further enhance the application's usability and reliability.
  
 [ Anita  ] https://github.com/TwilioDevEd/appointment-reminders-flask
 
