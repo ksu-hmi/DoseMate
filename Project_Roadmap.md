@@ -13,6 +13,8 @@
  
 [ Anita  ] https://github.com/TwilioDevEd/appointment-reminders-flask
 
+ A Python based application which used a Flask web framework and Celery distribution system to send SMS reminder about upcoming appointments. Before the app can be used you must first configure your account abd environment credidentals using the information found on your Twilio console. Once complete you can add appointments and set up when you would like to recieve your SMS remainder. Other features of this app include shortcode resources, fraud protection and video tutorials to help aid in making the application user friendly. As is, the app is quite efficient and designed to account for most common errors that are prone to happen.   
+ 
 [Brianna] https://github.com/hobrien17/mediroo    
 
 # Sprint 2
