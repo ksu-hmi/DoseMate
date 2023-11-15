@@ -148,7 +148,7 @@ style = ttk.Style()
 style.configure("Custom.TButton", font=("Arial", 12), foreground="#000000", background="#117A65", relief="raised")
 style.map("Custom.TButton", foreground=[('active', 'red'), ('disabled', 'gray')], background=[('active', '#0E4C3C'), ('disabled', 'gray')])
 
-window.after(500, speak_text, "Welcome to our advanced Medication Reminder App. It offers features to add, display, set reminders, and exit with ease.")
+window.after(500, speak_text, "Welcome to Med Reminder. Explore the capabilities of our cutting-edge Medication Reminder App, providing easy functionalities for adding, displaying, setting reminders, and exiting with ease") #Brianna
 
 # Start the main event loop
 window.mainloop()
