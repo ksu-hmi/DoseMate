@@ -94,7 +94,7 @@ def add_medication():
 
     button_add_medication = tk.Button(top1, text="Add Medication", command=add_medication_schedule, font=("Arial", 12), fg="#000000", bg="#117A65")
     button_add_medication.pack(pady=5)
-    top1.after(500, speak_text, "You have clicked on Add Medication App. Kindly enter your Medication, Dosage, Frequency, and schedule time")
+    top1.after(500, speak_text, "You have selected Add Medication. Kindly enter your Medication, Dosage, Frequency, and schedule time") #Brianna 
     top1.mainloop()
 
 def display_medication():
