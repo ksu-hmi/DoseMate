@@ -4,8 +4,8 @@
 - [x] Take control of a code repository within the organization.
 - [x] Make edits to a README.md file in the repository and commit those changes.
 - [x] Investigate pre-existing Python code that is relevant to the project (as mentioned below).
-- [ ] Make essential project modifications and submit the changes.
-- [ ] Review and execute the code
+- [x] Make essential project modifications and submit the changes.
+- [x] Review and execute the code
  # Findings 
 [ Zainab ] https://github.com/ByrneThomas/Medication_-Reminder_-For_The-_Elderly/blob/main/Final%20code.py
 
@@ -21,9 +21,9 @@ This Python application using a Flask, PostgreSQL, and SQLAlchemy backend allows
 
 
 # Sprint 2
-- [ ] Making necessary updates with commit messages within the designated organization
-- [ ] Commit a minimum of 6 code changes of significant size
-- [ ] Updating Project roadmap as our tasks are completed
+- [x] Making necessary updates with commit messages within the designated organization
+- [x] Commit a minimum of 6 code changes of significant size
+- [x] Updating Project roadmap as our tasks are completed
 
 # Sprint 3
 - [ ] Update and optimize your project code, ensuring it meets the requirements, thoroughly test it for any issues or bugs, and document changes and improvements in project documentation for clarity and maintainability.
