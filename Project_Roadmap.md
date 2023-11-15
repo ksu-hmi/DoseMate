@@ -24,6 +24,7 @@ This Python application using a Flask, PostgreSQL, and SQLAlchemy backend allows
 - [x] Making necessary updates with commit messages within the designated organization
 - [x] Commit a minimum of 6 code changes of significant size
 - [x] Updating Project roadmap as our tasks are completed
+- [x] Review and execute the code
 
 # Sprint 3
 - [ ] Update and optimize your project code, ensuring it meets the requirements, thoroughly test it for any issues or bugs, and document changes and improvements in project documentation for clarity and maintainability.
