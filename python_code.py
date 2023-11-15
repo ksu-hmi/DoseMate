@@ -28,7 +28,7 @@ def load_medication_data():
 def display_medication_info():
     medication_data = load_medication_data()
     for row in medication_data:
-        label_medication_name = tk.Label(top, text=row, font=("Times New Roman", 12), fg="#FFFFFF", bg="#333333") #Brianna font to TNR
+        label_medication_name = tk.Label(top, text=row, font=("Arial", 12), fg="#FFFFFF", bg="#333333") 
         label_medication_name.pack(pady=10)
 
 # Function to set reminders for medication
@@ -64,7 +64,7 @@ def add_medication_schedule():
 def add_medication():
     top1 = tk.Toplevel()
     top1.title("Add Medication")
-    top1.geometry("400x300")
+    top1.geometry("500x400") #Brianna
     top1.config(bg='#333333')
     global entry_medication_name
     global entry_dosage
@@ -100,7 +100,7 @@ def add_medication():
 def display_medication():
     top = tk.Toplevel()
     top.title("Display Medication Reminder")
-    top.geometry("400x300")
+    top.geometry("500x600")
     top.config(bg='#333333')
 
     # Medication Schedule Form
@@ -118,8 +118,8 @@ def close():
 
 # Create the main window
 window = tk.Tk()
-window.title("Medication App")
-window.geometry("400x300")
+window.title("Med Reminder") #Brianna 
+window.geometry("500x600")
 window.config(bg='#333333')
 
 # Create a label with custom styling
