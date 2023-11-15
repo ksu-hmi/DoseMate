@@ -28,7 +28,7 @@ def load_medication_data():
 def display_medication_info():
     medication_data = load_medication_data()
     for row in medication_data:
-        label_medication_name = tk.Label(top, text=row, font=("Arial", 12), fg="#FFFFFF", bg="#333333")
+        label_medication_name = tk.Label(top, text=row, font=("Times New Roman", 12), fg="#FFFFFF", bg="#333333") #Brianna font to TNR
         label_medication_name.pack(pady=10)
 
 # Function to set reminders for medication
