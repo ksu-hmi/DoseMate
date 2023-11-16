@@ -100,7 +100,7 @@ def add_medication():
 def display_medication():
     top = tk.Toplevel()
     top.title("Display Medication Reminder")
-    top.geometry("500x600")
+    top.geometry("500x600") #Brianna
     top.config(bg='#333333')
 
     # Medication Schedule Form
@@ -119,7 +119,7 @@ def close():
 # Create the main window
 window = tk.Tk()
 window.title("Med Reminder") #Brianna 
-window.geometry("500x600")
+window.geometry("500x600") #Brianna
 window.config(bg='#333333')
 
 # Create a label with custom styling
