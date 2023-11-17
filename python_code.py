@@ -55,6 +55,7 @@ def add_medication_schedule():
     dosage = entry_dosage.get()
     frequency = entry_frequency.get()
     schedule_time = entry_schedule_time.get()
+    quantity = entry_quantity.get() # Entry field for quantity - Anita 
 
     # Append the medication schedule to the CSV file
     with open(MEDICATION_FILE, 'a', newline='') as file:
