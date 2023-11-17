@@ -144,6 +144,28 @@ def display_medication():
     top.after(500, speak_text, "You have clicked on Display Medication App successfully")
     top.mainloop()
 
+def delete_medication(medication_id):
+    # Connect to the SQLite database (replace 'your_database.db' with the actual database file)
+    connection = sqlite3.connect('your_database.db')
+    cursor = connection.cursor()
+
+    try:
+        # Execute the SQL command to delete the medication with the given ID
+        cursor.execute('DELETE FROM medications WHERE id = ?', (medication_id,))
+        # Commit the changes to the database
+        connection.commit()
+        print(f'Medication with ID {medication_id} deleted successfully.')
+    except Exception as e:
+        # Handle exceptions, such as database errors
+        print(f'Error deleting medication: {e}')
+    finally:
+        # Close the database connection
+        connection.close()
+
+# Example usage: Delete medication with ID 1
+delete_medication(1)
+
+
 def close():
     window.destroy()
 
