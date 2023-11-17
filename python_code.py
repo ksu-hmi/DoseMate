@@ -5,6 +5,7 @@ import csv
 from tkinter import messagebox
 import pyttsx3
 import dateutil.parser
+import sqlite3
 from geopy.geocoders import Nominatim # start of SOS integration, Zainab's comment 
 
 def speak_text(command):
