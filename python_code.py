@@ -5,6 +5,7 @@ import csv
 from tkinter import messagebox
 import pyttsx3
 import dateutil.parser
+from geopy.geocoders import Nominatim # start of SOS integration, Zainab's comment 
 
 def speak_text(command):
     text = pyttsx3.init()
@@ -60,6 +61,28 @@ def add_medication_schedule():
         writer = csv.writer(file)
         writer.writerow([medication_name, dosage, frequency, schedule_time])
     messagebox.showinfo("Success", "Medication schedule added successfully.")
+
+# Function to get the current location, SOS integration, Zainab's Change 
+def get_current_location():
+    geolocator = Nominatim(user_agent="med_reminder_app")
+    location = geolocator.geocode("Your City, Your Country")  # Replace with default location
+    if location:
+        return location.latitude, location.longitude
+    else:
+        return None, None
+
+# Function to send emergency alert, SOS Integration, Zainab's Change 
+def send_emergency_alert():
+    current_location = get_current_location()
+    if current_location:
+        latitude, longitude = current_location
+        alert_message = f"EMERGENCY! User needs assistance. Location: {latitude}, {longitude}"
+
+        # You can customize this part to send the alert through SMS, email, or any other service.
+        # For demonstration purposes, we'll display a messagebox.
+        messagebox.showinfo("Emergency Alert", alert_message)
+    else:
+        messagebox.showwarning("Location Error", "Unable to retrieve current location. Please check your internet connection.")
 
 def add_medication():
     top1 = tk.Toplevel()
