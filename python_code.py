@@ -121,6 +121,12 @@ def add_medication():
     top1.after(500, speak_text, "You have selected Add Medication. Kindly enter your Medication, Dosage, Frequency, and schedule time") #Brianna 
     top1.mainloop()
 
+    label_quantity = tk.Label(top1, text="Quantity:", font=("Arial", 12), fg="#FFFFFF", bg="#333333")
+    label_quantity.pack(pady=5)
+    entry_quantity = tk.Entry(top1, font=("Arial", 12))
+    entry_quantity.pack(pady=5)
+
+
 def display_medication():
     top = tk.Toplevel()
     top.title("Display Medication Reminder")
