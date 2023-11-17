@@ -88,7 +88,7 @@ def send_emergency_alert():
 def add_medication():
     top1 = tk.Toplevel()
     top1.title("Add Medication")
-    top1.geometry("500x400") #Brianna
+    top1.geometry("400x500") #Brianna
     top1.config(bg='#333333')
     global entry_medication_name
     global entry_dosage
@@ -130,7 +130,7 @@ def add_medication():
 def display_medication():
     top = tk.Toplevel()
     top.title("Display Medication Reminder")
-    top.geometry("500x600") #Brianna
+    top.geometry("400x500") #Brianna
     top.config(bg='#333333')
 
     # Medication Schedule Form
@@ -149,7 +149,7 @@ def close():
 # Create the main window
 window = tk.Tk()
 window.title("Med Reminder") #Brianna 
-window.geometry("500x600") #Brianna
+window.geometry("400x500") #Brianna
 window.config(bg='#333333')
 
 # Create a label with custom styling
