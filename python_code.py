@@ -73,7 +73,7 @@ def get_current_location():
     else:
         return None, None
 
-# Function to send emergency alert, SOS Integration, Zainab's Change 
+# Function to send emergency alert, this feature will include an SOS feature that in case of an emergency can alert designated contacts or even emergency services with the user's location and relevant mewdication, Zainab's change
 def send_emergency_alert():
     current_location = get_current_location()
     if current_location:
@@ -84,7 +84,7 @@ def send_emergency_alert():
         # For demonstration purposes, we'll display a messagebox.
         messagebox.showinfo("Emergency Alert", alert_message)
     else:
-        messagebox.showwarning("Location Error", "Unable to retrieve current location. Please check your internet connection.")
+        messagebox.showwarning("Location Error", "Unable to retrieve current location. Please check your internet connection.") 
 
 def add_medication():
     top1 = tk.Toplevel()
