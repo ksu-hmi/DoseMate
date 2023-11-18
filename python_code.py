@@ -144,7 +144,7 @@ def display_medication():
     top.after(500, speak_text, "You have clicked on Display Medication App successfully")
     top.mainloop()
 
-def delete_medication(medication_id): #Start of briannas commit
+def delete_medication(medication_id): # Brianna Deletetion of medication 
     # Connect to the SQLite database (replace 'your_database.db' with the actual database file)
     connection = sqlite3.connect('your_database.db')
     cursor = connection.cursor()
@@ -161,9 +161,6 @@ def delete_medication(medication_id): #Start of briannas commit
     finally:
         # Close the database connection
         connection.close()
-
-# Example usage: Delete medication with ID 1
-delete_medication(1)
 
 
 def close():
