@@ -144,7 +144,7 @@ def display_medication():
     top.after(500, speak_text, "You have clicked on Display Medication App successfully")
     top.mainloop()
 
-def delete_medication(medication_id):
+def delete_medication(medication_id): #Start of briannas commit
     # Connect to the SQLite database (replace 'your_database.db' with the actual database file)
     connection = sqlite3.connect('your_database.db')
     cursor = connection.cursor()
@@ -190,11 +190,14 @@ button1.pack(pady=10)
 button2 = ttk.Button(button_frame, text="Display Medication", command=display_medication, style="Custom.TButton")
 button2.pack(pady=10)
 
-button3 = ttk.Button(button_frame, text="Set Reminder", command=set_medication_reminders, style="Custom.TButton")
+button3 = ttk.Button(button_frame, text="Delete Medication", command= delete_medication, style="Custom.TButton")
 button3.pack(pady=10)
 
-button4 = ttk.Button(button_frame, text="Exit/Close", command=close, style="Custom.TButton")
+button4 = ttk.Button(button_frame, text="Set Reminder", command=set_medication_reminders, style="Custom.TButton")
 button4.pack(pady=10)
+
+button5 = ttk.Button(button_frame, text="Exit/Close", command=close, style="Custom.TButton")
+button5.pack(pady=10)
 
 # Define custom styling for the buttons
 style = ttk.Style()
