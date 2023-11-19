@@ -23,7 +23,7 @@ This Python application using a Flask, PostgreSQL, and SQLAlchemy backend allows
 # Sprint 2
 - [x] Making necessary updates with commit messages within the designated organization
 - [x] Commit a minimum of 6 code changes of significant size
-- [ ] Anita to do list: create code to input quantity of meds, 
+- [x] Anita to do list: create code to input quantity of meds, 
 - [x] Updating Project roadmap as our tasks are completed
 - [x] Review and execute the code
 - [x] Add code for SOS integration - Zainab
