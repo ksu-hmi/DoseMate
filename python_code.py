@@ -95,6 +95,7 @@ def add_medication():
     global entry_dosage
     global entry_frequency
     global entry_schedule_time
+    global entry_quantity #Anita
 
     # Medication Schedule Form
     label_medication_name = tk.Label(top1, text="Medication Name:", font=("Arial", 12), fg="#FFFFFF", bg="#333333")
