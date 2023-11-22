@@ -37,6 +37,8 @@ def display_medication_info():
 def set_medication_reminders():
     medication_data = load_medication_data()
     current_time = datetime.datetime.now().strftime("%H:%M")
+    messagebox.showinfo("Medication Reminder", "Reminders have been set.")
+    speak_text("Medication reminders have been set.") #Anita
 
     for row in medication_data:
         medication_name = row[0]
@@ -48,7 +50,7 @@ def set_medication_reminders():
 
         if current_time == schedule_time:
             messagebox.showinfo("Medication Reminder", f"It's time to take {medication_name}.")
-            print(f"Reminder: Take {medication_name}!")
+            print(f"Reminder: Take {medication_name}!") #Anita
 
 # Function to add medication to the schedule
 def add_medication_schedule():
@@ -85,17 +87,20 @@ def send_emergency_alert():
         messagebox.showinfo("Emergency Alert", alert_message)
     else:
         messagebox.showwarning("Location Error", "Unable to retrieve current location. Please check your internet connection.") 
-
+        
+    
 def add_medication():
     top1 = tk.Toplevel()
     top1.title("Add Medication")
     top1.geometry("400x500") #Brianna
     top1.config(bg='#333333')
+    top1.after(500, speak_text, "You have selected Add Medication. Please enter your Medication, Dosage, Frequency, schedule time and Quantity.")
     global entry_medication_name
     global entry_dosage
     global entry_frequency
     global entry_schedule_time
     global entry_quantity #Anita
+
 
     # Medication Schedule Form
     label_medication_name = tk.Label(top1, text="Medication Name:", font=("Arial", 12), fg="#FFFFFF", bg="#333333")
@@ -134,6 +139,7 @@ def display_medication():
     top.title("Display Medication Reminder")
     top.geometry("400x500") #Brianna
     top.config(bg='#333333')
+    top.after(500, speak_text, "You have clicked on Display Medication successfully.") #Anita
 
     # Medication Schedule Form
     label_medication_name = tk.Label(top, text='Display Medication', font=("Arial", 16), fg="#FFFFFF", bg="#333333")
@@ -194,13 +200,17 @@ button3.pack(pady=10)
 button4 = ttk.Button(button_frame, text="Set Reminder", command=set_medication_reminders, style="Custom.TButton")
 button4.pack(pady=10)
 
-button5 = ttk.Button(button_frame, text="Exit/Close", command=close, style="Custom.TButton")
-button5.pack(pady=10)
+button5 = ttk.Button(button_frame, text="Quantity", command=add_quantity, style="Custom.TButton")
+button5.pack(pady=10) #Anita
+
+button6 = ttk.Button(button_frame, text="Exit/Close", command=close, style="Custom.TButton")
+button6.pack(pady=10)
 
 # Define custom styling for the buttons
 style = ttk.Style()
 style.configure("Custom.TButton", font=("Arial", 12), foreground="#000000", background="#117A65", relief="raised")
 style.map("Custom.TButton", foreground=[('active', 'red'), ('disabled', 'gray')], background=[('active', '#0E4C3C'), ('disabled', 'gray')])
+
 
 window.after(500, speak_text, "Welcome to Med Reminder. Explore the capabilities of our cutting-edge Medication Reminder App, providing easy functionalities for adding, displaying, setting reminders, and exiting with ease") #Brianna
 
