@@ -200,8 +200,8 @@ button3.pack(pady=10)
 button4 = ttk.Button(button_frame, text="Set Reminder", command=set_medication_reminders, style="Custom.TButton")
 button4.pack(pady=10)
 
-button5 = ttk.Button(button_frame, text="Quantity", command=add_quantity, style="Custom.TButton")
-button5.pack(pady=10) #Anita
+button5 = ttk.Button(button_frame, text="Quantity", command=add_medication_schedule, style="Custom.TButton")
+ #Anita
 
 button6 = ttk.Button(button_frame, text="Exit/Close", command=close, style="Custom.TButton")
 button6.pack(pady=10)
