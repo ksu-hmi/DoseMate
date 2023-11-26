@@ -1,4 +1,4 @@
-# Medicine Reminder App
+# DoseMate
 A user friendly app that will help patients who need to take medication frequently/regularly effectively manage their medication schedules, especially older adults
 
 # About
