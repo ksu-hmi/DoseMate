@@ -16,7 +16,7 @@ The Medication Reminder App is a straightforward mobile application designed to 
 
 5. Doctor Contact: Include a feature to easily access the contact information of the prescribing physician.
 
-6. Emergent Response Integration: Include an SOS feature that in case of an emergency can alert designated contacts or even emergency services with the user's location annd relevant medical information
+6. Emergent Response Integration: Includes an SOS feature that in case of an emergency can alert designated contacts or even emergency services with the user's location annd relevant medical information
 
 7. Implement text-to-speech functionality for voice feedback and instructions.
 
