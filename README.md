@@ -14,11 +14,9 @@ DoseMate is a straightforward mobile application designed to help individuals, e
 
 4. Medication Information: Users can store details about each medication, including purpose, dosage instructions, and any special considerations.
 
-5. Doctor Contact: Include a feature to easily access the contact information of the prescribing physician.
+5. Emergent Response Integration: Includes an SOS feature that in case of an emergency can alert designated contacts or even emergency services with the user's location annd relevant medical information
 
-6. Emergent Response Integration: Includes an SOS feature that in case of an emergency can alert designated contacts or even emergency services with the user's location annd relevant medical information
-
-7. Implement text-to-speech functionality for voice feedback and instructions.
+6. Implement text-to-speech functionality for voice feedback and instructions.
 
 
 # Licenses 
