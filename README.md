@@ -16,9 +16,10 @@ The Medication Reminder App is a straightforward mobile application designed to 
 
 5. Doctor Contact: Include a feature to easily access the contact information of the prescribing physician.
 
-6. Pharmacy Locator: Integrate a map function to help users find nearby pharmacies for prescription refills.
+6. Emergent Response Integration: Include an SOS feature that in case of an emergency can alert designated contacts or even emergency services with the user's location annd relevant medical information
 
-7. History Tracking: Record medication adherence over time, which can be useful for doctor appointments.
+7. Implement text-to-speech functionality for voice feedback and instructions.
+
 
 # Licenses 
 This project is licensed under MIT.
