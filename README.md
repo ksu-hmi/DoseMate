@@ -2,7 +2,7 @@
 A user friendly app that will help patients who need to take medication frequently/regularly effectively manage their medication schedules, especially older adults
 
 # About
-DoseMate is a straightforward mobile application designed to help individuals, especially elderly patients, manage their medication schedules effectively. It is a user-friendly tool for anyone who needs to take medications regularly. The App offers a  user-friendly solution for managing medication schedules. By providing features like customizable reminders, medication information storage, and missed dose notifications, it aims to empower users to take control of their health. 
+DoseMate is an user-friendly mobile application designed to help individuals, especially elderly patients, with managing their medication schedules effectively. The App offers features like customizable reminders, medication information storage, and missed dose notifications, to empower users to take control of their health. 
 
 # Features
 
