@@ -18,6 +18,8 @@ DoseMate is a straightforward mobile application designed to help individuals, e
 
 6. Implement text-to-speech functionality for voice feedback and instructions.
 
+7. Delete medication: The capability to remove a medication entry when a user has ceased taking the prescribed medicine.
+
 
 # Licenses 
 This project is licensed under MIT.
